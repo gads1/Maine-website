@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap");
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(45deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 29%, rgba(252,176,69,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-shadow:3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    width: 30px;
+    height: auto;
+}
+
+table {
+    border: 5px solid #161a42;
+    width: 100%;
+    max-width: 1024px;
+    height: 100px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 2px solid black;
+}
+
+td {
+    position: relative;
+    text-align: center;
+    transition: background-image 300ms ease-in-out;
+}
+
+thead tr {
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-weight: 700;
+}
+
+tbody tr {
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition:
+        background-color 300ms ease-in-out,
+        text-shadow 300ms ease-in-out;
+}
+
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #000333;
+}
+
+tbody td::before,
+tbody td::after {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    content: "";
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 300ms ease-in-out;
+}
+
+tbody td::before {
+    z-index: -1;
+    background-image: radial-gradient(circle, rgba(204, 204, 204, 0.8) 0%, rgba(152, 152, 152, 0.8) 80%);
+}
+
+tbody td::after {
+    border: 4px solid rgba(63, 247, 251, 1);
+}
+
+tbody td:hover {
+    color: #f1f1f1;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 50%);
+}
+
+tbody td:hover::before,
+tbody td:hover::after {
+    opacity: 1;
+    visibility: visible;
+}

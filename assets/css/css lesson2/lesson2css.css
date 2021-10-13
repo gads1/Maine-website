@@ -1,0 +1,25 @@
+@import "./styles/reset.css";
+@import "./styles/common.css";
+
+.user-avatar {
+    width: 200px;
+    height: auto;
+    animation: image-rotate 3500ms linear 2;
+    animation-delay: 3s;
+    transform: rotate3d(0, 1, 0, 180deg);
+    will-change: transform;
+}
+
+@keyframes image-rotate {
+    0% {
+        transform: rotate3d(0, 1, 0, 180deg);
+    }
+
+    50% {
+        transform: rotate3d(0, 1, 0, 0);
+    }
+
+    100% {
+        transform: rotate3d(0, 1, 0, 180deg);
+    }
+}
