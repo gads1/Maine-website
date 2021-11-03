@@ -1,0 +1,61 @@
+.circle {
+    background-color: red;
+    border-radius: 60px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    right: 50px;
+    bottom: 50px;
+    width: 97px;
+    height: 100px;
+}
+
+.prapor {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.insta{
+    display: flex;
+    flex-direction: row;
+}
+.back_insta{
+    background: rgb(246,21,75);
+    background: linear-gradient(90deg, rgba(246,21,75,1) 0%, rgba(240,2,202,1) 35%, rgba(255,0,219,1) 100%);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 500px;
+    border-radius:65px;
+}
+.second_back_insta{
+    border: 15px solid white;
+    border-radius: 50px;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 325px;
+    top: 25px;
+}
+.third_back_insta{
+    border: 15px solid white;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 220px;
+    top: 70px;
+}
+.fourth_back_insta{
+    border: 15px solid white;
+    border-radius: 50px;
+    width: 0px;
+    height: 0px;
+    position: relative;
+    left: 220px;
+    top: 60px;
+}
+
