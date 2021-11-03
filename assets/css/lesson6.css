@@ -9,5 +9,45 @@
     padding: 25px;
     height: 230px;
     border: 2px solid black;
-    background-color: cornflowerblue;
+    background-color: red;
+}
+.second-main-div{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+
+.third-main-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.filial-left3{
+    background-color: green;
+    height: 230px;
+    width: 33%;
+}
+
+.filial-center{
+    background-color: pink;
+    height: 230px;
+    width: 33%;
+}
+
+.filial-right3 {
+    background-color: yellow;
+    height: 230px;
+    width: 33%;
+}
+
+.filial-left {
+    background-color: blue;
+    height: 230px;
+    width: 50%;
+}
+
+.filial-right {
+    background-color: orange;
+    height: 230px;
+    width: 50%;
 }
