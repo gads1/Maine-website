@@ -1,0 +1,14 @@
+.regist-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.main-body {
+    background: url(/assets/images/lesson12.jpg) center center no-repeat ;
+}
