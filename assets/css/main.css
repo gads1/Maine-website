@@ -1,5 +1,6 @@
 body{
-    background-color: lightgray;
+    background: rgb(221,193,34);
+    background: linear-gradient(90deg, rgba(221,193,34,1) 20%, rgba(255,0,108,1) 86%);
 }
 .header{
     padding:20px;
