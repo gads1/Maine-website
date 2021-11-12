@@ -1,6 +1,5 @@
 body{
-    background: rgb(221,193,34);
-    background: linear-gradient(90deg, rgba(221,193,34,1) 20%, rgba(255,0,108,1) 86%);
+    background-color: #f6ebbe;
 }
 .header{
     padding:20px;
@@ -16,6 +15,7 @@ body{
     margin: 0 auto;
 }
 h1{
+    text-shadow: 5px 5px 7px #CE5937;
     text-align: center;
     margin: 10px 0;
 }
@@ -24,6 +24,7 @@ p{
 }
 h2{
     text-align: left;
+    text-shadow: 5px 5px 7px #CE5937;
     margin-left: 20px;
 }
 .nav{
@@ -52,9 +53,11 @@ h2{
 }
 
 .nav_inner:hover {
-    background-color: #dcda73;
+    background-color: #678dff;
+    -webkit-box-shadow: 0px 0px 24px 14px rgba(255, 0, 0, 0.65);
+    -moz-box-shadow: 0px 0px 24px 14px rgba(255, 0, 0, 0.65);
+    box-shadow: 0px 0px 24px 14px rgba(255, 0, 0, 0.65);
 }
-
 h3{
     text-align: center;
     margin: 10px 0;
@@ -89,4 +92,10 @@ h3{
     padding: 20px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
+}
+.nav_inner_second:hover {
+    background-color: #678dff;
+    -webkit-box-shadow: 0px 0px 24px 14px rgba(255, 0, 0, 0.65);
+    -moz-box-shadow: 0px 0px 24px 14px rgba(255, 0, 0, 0.65);
+    box-shadow: 0px 0px 24px 14px rgba(255, 0, 0, 0.65);
 }
