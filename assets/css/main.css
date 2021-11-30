@@ -20,7 +20,7 @@ body{
     border: 1px solid brown;
     border-radius: 50px;
     background-color: black;
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0 0px 20px;
 }
 h1{
     text-shadow: 5px 5px 7px #CE5937;
@@ -72,9 +72,9 @@ h2{
 }
 .nav_inner:hover {
     background-color: #678dff;
-    -webkit-box-shadow: 0px 0px 24px 14px green;
-    -moz-box-shadow: 0px 0px 24px 14px green;
-    box-shadow: 0px 0px 24px 14px green;
+    -webkit-box-shadow: 0 0px 24px 14px green;
+    -moz-box-shadow: 0 0px 24px 14px green;
+    box-shadow: 0px 0 24px 14px green;
 }
 h3{
     text-align: center;
